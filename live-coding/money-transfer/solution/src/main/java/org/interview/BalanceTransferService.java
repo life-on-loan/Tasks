@@ -9,7 +9,7 @@ public class BalanceTransferService {
 
 		if (from.withdraw(amount)) {
 			to.add(amount);
-		} {
+		} else {
 			throw new RuntimeException("Couldn't transfer money from to to");
 		}
 	}

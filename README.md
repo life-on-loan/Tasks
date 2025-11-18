@@ -10,9 +10,8 @@
 ## live-coding
 [Задача 1](live-coding/iterator): реализовать итератор  
 [Задача 2](live-coding/comparing): реализовать стандартный метод, осуществляющий сравнение 2-х объектов    
-[Задача 3](live-coding/immutable): Сделать класс неизменяемым и добавить сеттеры   
-[Задача 4](live-coding/load-balancer/task): load balancer (переформулировать)  
-[Задача 5](live-coding/money-transfer/task): реализовать перевод денег со счета на счёт
+[Задача 3](live-coding/immutable): Сделать класс неизменяемым и добавить сеттеры
+[Задача 4](live-coding/money-transfer/task): реализовать перевод денег со счета на счёт
 ## algorithms
 [Задача 1](algorithms/palindrome): реализовать метод, проверяющий является ли строка палиндромом  
 [Задача 2](algorithms/Fibonacci): вывести i-ый элемент последовательности Фибоначчи      
