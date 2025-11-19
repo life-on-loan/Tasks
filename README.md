@@ -10,12 +10,13 @@
 ## live-coding
 [Задача 1](live-coding/iterator): реализовать итератор  
 [Задача 2](live-coding/comparing): реализовать стандартный метод, осуществляющий сравнение 2-х объектов    
-[Задача 3](live-coding/immutable): сделать класс неизменяемым и добавить сеттеры  
+[Задача 3](live-coding/immutable): сделать класс неизменяемым  
 [Задача 4](live-coding/money-transfer/task): реализовать перевод денег со счета на счёт
 ## algorithms
 [Задача 1](algorithms/palindrome): реализовать метод, проверяющий является ли строка палиндромом  
 [Задача 2](algorithms/Fibonacci): вывести i-ый элемент последовательности Фибоначчи      
 [Задача 3](algorithms/unique-strings): написать метод, который принимает текст и возвращает количество уникальных строк с учетом регистра  
+[Задача 4](algorithms/brackets): провалидировать строку на корректность скобочной последовательности  
 ## stream-api
 [Задача 1](stream-api/amount): посчитать с помощью StreamAPI общую сумму по полю amount    
 [Задача 2](stream-api/grouping): сгруппировать активные персоны по имени, чей возраст больше 25 лет      
@@ -23,10 +24,10 @@
 [Задача 4](stream-api/print2): что будет выведено (stream.map)  
 [Задача 5](stream-api/list-to-map): из list в map  
 ## code-review
-[Задача 1](code-review/null): что произойдет в этом коде, если user.getType() == null  
-[Задача 2](code-review/threads): что будет выведено (потоки)  
-[Задача 3](code-review/reference-types): что будет выведено (ссылочные типы)  
-[Задача 4](code-review/transactions): сколько транзакций будет создано  
-[Задача 5](code-review/print): можно ли гарантировать результат вывода на экран переменной a?  
-[Задача 6](code-review/improve-code): всё ли хорошо? Если нет, то какие проблемы могут быть? Если есть проблемы, то как их решить?  
-[Задача 7](code-review/improve-code2): проведи код-ревью, распознай проблему и предложи решение  
+[Задача 1](code-review/null): Optional - что произойдет в этом коде, если user.getType() == null  
+[Задача 2](code-review/threads): Threads - что будет выведено   
+[Задача 3](code-review/reference-types): Equals - что будет выведено (ссылочные типы)  
+[Задача 4](code-review/transactions): Transactional, Spring - сколько транзакций будет создано  
+[Задача 5](code-review/print): Threads - можно ли гарантировать результат вывода на экран переменной a?  
+[Задача 6](code-review/improve-code): Multithreading - всё ли хорошо? Если нет, то какие проблемы могут быть? Если есть проблемы, то как их решить?  
+[Задача 7](code-review/improve-code2): Multithreading - проведи код-ревью, распознай проблему и предложи решение  

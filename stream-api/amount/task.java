@@ -1,9 +1,9 @@
 @Value
 @Builder
-public class Order { }
-
-String title;
-Double amount;
+public class Order {
+    String title;
+    Double amount;
+}
 
 public class OrderService {
 
