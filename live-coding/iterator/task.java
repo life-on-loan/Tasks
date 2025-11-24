@@ -7,7 +7,6 @@ import java.util.function.Predicate;
 public class FilteringIterator<T> implements Iterator<T> {
     private final Iterator<T> sourceIterator;
     private final Predicate<T> filter;
-    private T nextElement;
 
     public FilteringIterator(Iterator<T> sourceIterator, Predicate<T> filter) {
         this.sourceIterator = Objects.requireNonNull(sourceIterator);
