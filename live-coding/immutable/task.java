@@ -1,10 +1,11 @@
+// TODO: Сделать класс неизменяемым (допускается псевдокод)
 public class MyImmutableObject {
-    private Map<MyObject, Integer> objToInt;
+    private Map<MyObject, Integer> map;
     private MyObject myObject;
     private String value;
 
     public MyImmutableObject(Map<MyObject, Integer> map, MyObject myObject, String value) {
-        this.objToInt = ?;
+        this.map = ?;
         this.myObject = ?;
         this.value = ?;
     }
@@ -22,6 +23,3 @@ public class MyImmutableObject {
     }
 
 }
-
-
-// TODO: Сделать класс неизменяемым и добавить сеттеры (допускается псевдокод)
