@@ -1,7 +1,11 @@
 # Задачи на собеседованиях
 ## Описание
-Здесь вы сможете найти частовстречаемые задачи с технических собеседований.
+Здесь вы сможете найти часто встречаемые задачи с технических собеседований.
 
+## spring
+[Задача 1](spring/transactions): сколько транзакций будет создано?  
+[Задача 2](spring/create-transaction): будет ли создана транзакция?  
+[Задача 3](spring/review): сделать ревью, найти проблемы  
 ## sql
 [Задача 1](sql/duplicates): удалить дубликаты  
 [Задача 2](sql/statistics): получить различного рода статистику  
@@ -20,15 +24,17 @@
 ## stream-api
 [Задача 1](stream-api/amount): посчитать с помощью StreamAPI общую сумму по полю amount  
 [Задача 2](stream-api/grouping): сгруппировать активные персоны по имени, чей возраст больше 25 лет  
-[Задача 3](stream-api/print): что будет выведено (list -> stream)  
-[Задача 4](stream-api/print2): что будет выведено (stream.map)  
+[Задача 3](stream-api/print): что будет выведено? (list -> stream)  
+[Задача 4](stream-api/print2): что будет выведено? (stream.map)  
 [Задача 5](stream-api/list-to-map): из list в map  
 ## code-review
-[Задача 1](code-review/null): Optional - что произойдет в этом коде, если user.getType() == null  
-[Задача 2](code-review/reference-types): Equals - что будет выведено (ссылочные типы)  
-[Задача 3](code-review/transactions): Transactional, Spring - сколько транзакций будет создано  
+[Задача 1](code-review/null): Optional - что произойдет в этом коде, если user.getType() == null?  
+[Задача 2](code-review/reference-types): Equals - что будет выведено? (ссылочные типы)  
+[Задача 3](code-review/try): try-catch-finally - что будет выведено?  
 ## multithreading  
 [Задача 1](multithreading/print): можно ли гарантировать результат вывода на экран переменной a?  
 [Задача 2](multithreading/print2): что будет выведено?  
 [Задача 3](multithreading/improve-code): всё ли хорошо? Если нет, то какие проблемы могут быть? Если есть проблемы, то как их решить?  
 [Задача 4](multithreading/improve-code2): проведи код-ревью, если есть проблема, то предложи её решение  
+## exception
+[Задача 1](exception/try): try-catch-finally - что будет выведено?  
