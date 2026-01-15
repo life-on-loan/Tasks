@@ -5,7 +5,7 @@
 ## spring
 [Задача 1](spring/transactions): сколько транзакций будет создано?  
 [Задача 2](spring/create-transaction): будет ли создана транзакция?  
-[Задача 3](spring/review): сделать ревью, найти проблемы  
+[Задача 3](spring/cacheable): сделать ревью, найти проблемы  
 ## sql
 [Задача 1](sql/duplicates): удалить дубликаты  
 [Задача 2](sql/statistics): получить различного рода статистику  
@@ -31,6 +31,7 @@
 [Задача 1](code-review/null): Optional - что произойдет в этом коде, если user.getType() == null?  
 [Задача 2](code-review/reference-types): Equals - что будет выведено? (ссылочные типы)  
 [Задача 3](code-review/try): try-catch-finally - что будет выведено?  
+[Задача 4](code-review/refactoring): проведи код-ревью, если есть проблема, то предложи её решение  
 ## multithreading  
 [Задача 1](multithreading/print): можно ли гарантировать результат вывода на экран переменной a?  
 [Задача 2](multithreading/print2): что будет выведено?  

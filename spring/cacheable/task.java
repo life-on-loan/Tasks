@@ -7,7 +7,7 @@ public class Controller {
     private final CachedPhotosService cachedPhotosService;
 
     @GetMapping("/resized-photo/{photo-id}")
-    public PhootoDTO getResizedPhoto(@PathVariable("photo-id") String photoId) {
+    public PhotoDTO getResizedPhoto(@PathVariable("photo-id") String photoId) {
         return cachedPhotosService.iconifiedPhoto(photoId);
     }
 }
