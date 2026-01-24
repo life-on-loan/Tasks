@@ -27,6 +27,7 @@
 [Задача 3](stream-api/print): что будет выведено? (list -> stream)  
 [Задача 4](stream-api/print2): что будет выведено? (stream.map)  
 [Задача 5](stream-api/list-to-map): из list в map  
+[Задача 6](stream-api/flatmap): анализ данных через flatmap
 ## code-review
 [Задача 1](code-review/null): Optional - что произойдет в этом коде, если user.getType() == null?  
 [Задача 2](code-review/reference-types): Equals - что будет выведено? (ссылочные типы)  
