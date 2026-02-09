@@ -6,21 +6,26 @@
 [Задача 1](spring/transactions): сколько транзакций будет создано?  
 [Задача 2](spring/create-transaction): будет ли создана транзакция?  
 [Задача 3](spring/cacheable): сделать ревью, найти проблемы  
+
 ## sql
 [Задача 1](sql/duplicates): удалить дубликаты  
 [Задача 2](sql/statistics): получить различного рода статистику  
 [Задача 3](sql/filter): отфильтровать посты по числу подписчиков  
 [Задача 4](sql/designBD): спроектировать схему бд и вывести результат по фильтру
+
 ## live-coding
 [Задача 1](live-coding/iterator): реализовать итератор  
 [Задача 2](live-coding/comparing): реализовать стандартный метод, осуществляющий сравнение 2-х объектов  
 [Задача 3](live-coding/immutable): сделать класс неизменяемым  
 [Задача 4](live-coding/money-transfer/task): реализовать перевод денег со счета на счёт
+
 ## algorithms
 [Задача 1](algorithms/palindrome): реализовать метод, проверяющий является ли строка палиндромом  
 [Задача 2](algorithms/Fibonacci): вывести i-ый элемент последовательности Фибоначчи  
 [Задача 3](algorithms/unique-strings): написать метод, который принимает текст и возвращает количество уникальных строк с учетом регистра  
 [Задача 4](algorithms/brackets): провалидировать строку на корректность скобочной последовательности  
+[Задача 5](algorithms/n_money): для заданного количества монет n определить максимальный номер клетки k, на которую можно положить монеты по правилу (на i-ю клетку кладется 2^(i-1) монет) и найти остаток монет после этого  
+
 ## stream-api
 [Задача 1](stream-api/amount): посчитать с помощью StreamAPI общую сумму по полю amount  
 [Задача 2](stream-api/grouping): сгруппировать активные персоны по имени, чей возраст больше 25 лет  
@@ -28,15 +33,19 @@
 [Задача 4](stream-api/print2): что будет выведено? (stream.map)  
 [Задача 5](stream-api/list-to-map): из list в map  
 [Задача 6](stream-api/flatmap): анализ данных через flatmap
+
 ## code-review
 [Задача 1](code-review/null): Optional - что произойдет в этом коде, если user.getType() == null?  
-[Задача 2](code-review/reference-types): Equals - что будет выведено? (ссылочные типы)  
+[Задача 2](code-review/reference-types): Equals - что будет выведено? (ссылочные типы, int, Integer)  
 [Задача 3](code-review/try): try-catch-finally - что будет выведено?  
 [Задача 4](code-review/refactoring): проведи код-ревью, если есть проблема, то предложи её решение  
+[Задача 5](code-review/equals): Equals - что будет выведено? (Object, String, Integer)
+
 ## multithreading  
 [Задача 1](multithreading/print): можно ли гарантировать результат вывода на экран переменной a?  
 [Задача 2](multithreading/print2): что будет выведено?  
 [Задача 3](multithreading/improve-code): всё ли хорошо? Если нет, то какие проблемы могут быть? Если есть проблемы, то как их решить?  
 [Задача 4](multithreading/improve-code2): проведи код-ревью, если есть проблема, то предложи её решение  
+
 ## exception
 [Задача 1](exception/try): try-catch-finally - что будет выведено?  
