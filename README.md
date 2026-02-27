@@ -46,6 +46,7 @@
 [Задача 2](multithreading/print2): что будет выведено?  
 [Задача 3](multithreading/improve-code): всё ли хорошо? Если нет, то какие проблемы могут быть? Если есть проблемы, то как их решить?  
 [Задача 4](multithreading/improve-code2): проведи код-ревью, если есть проблема, то предложи её решение  
+[Задача 5](multithreading/countdownlatch): отработает ли CountDownLatch нужное количество раз? Что будет выведено?
 
 ## exception
 [Задача 1](exception/try): try-catch-finally - что будет выведено?  

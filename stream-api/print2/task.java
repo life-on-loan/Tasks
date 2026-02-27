@@ -3,7 +3,7 @@ Stream.of("d2", "a2", "b1", "b3", "c")
         System.out.println("map: " + s);
         return s.toUpperCase();
     })
-            .anyMatch(s -> {
+    .anyMatch(s -> {
         System.out.println("anyMatch: " + s);
         return s.startsWith("A");
     });
