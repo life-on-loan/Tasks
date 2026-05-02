@@ -8,6 +8,7 @@
 [Задача 3](spring/cacheable): сделать ревью, найти проблемы  
 [Задача 4](spring/notification-review): объяснить, что происходит в коде  
 [Задача 5](spring/inner-transaction): сколько транзакций будет вызвано и как сделать больше?  
+[Задача 6](spring/inner-transaction-2): какая зарплата запишется в БД?  
 
 ## sql
 [Задача 1](sql/duplicates): удалить дубликаты  

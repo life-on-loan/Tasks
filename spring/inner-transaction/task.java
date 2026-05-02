@@ -7,13 +7,13 @@ public class SomeServiceWithTransactional {
         someMethod1();
     }
 
-    @Transactional(propagation = REQUIRED_NEW)
+    @Transactional(propagation = REQUIRES_NEW)
     public void someMethod1() {
         // some logic
         someMethod2();
     }
 
-    @Transactional(propagation = REQUIRED_NEW)
+    @Transactional(propagation = REQUIRES_NEW)
     private void someMethod2() {
         ...
     }
