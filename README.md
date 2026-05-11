@@ -5,10 +5,9 @@
 ## spring
 [Задача 1](spring/transactions): сколько транзакций будет создано?  
 [Задача 2](spring/create-transaction): будет ли создана транзакция?  
-[Задача 3](spring/cacheable): сделать ревью, найти проблемы  
-[Задача 4](spring/notification-review): объяснить, что происходит в коде  
-[Задача 5](spring/inner-transaction): сколько транзакций будет вызвано и как сделать больше?  
-[Задача 6](spring/inner-transaction-2): какая зарплата запишется в БД?  
+[Задача 3](spring/notification-review): объяснить, что происходит в коде  
+[Задача 4](spring/inner-transaction): сколько транзакций будет вызвано и как сделать больше?  
+[Задача 5](spring/inner-transaction-2): какая зарплата запишется в БД?  
 
 ## sql
 [Задача 1](sql/duplicates): удалить дубликаты  
@@ -43,7 +42,8 @@
 [Задача 2](code-review/reference-types): Equals - что будет выведено? (ссылочные типы, int, Integer)  
 [Задача 3](code-review/try): try-catch-finally - что будет выведено?  
 [Задача 4](code-review/refactoring): проведи код-ревью, если есть проблема, то предложи её решение  
-[Задача 5](code-review/equals): Equals - что будет выведено? (Object, String, Integer)
+[Задача 5](code-review/equals): Equals - что будет выведено? (Object, String, Integer)  
+[Задача 6](code-review/cacheable): сделать ревью, найти проблемы  
 
 ## multithreading  
 [Задача 1](multithreading/print): можно ли гарантировать результат вывода на экран переменной a?  
@@ -54,3 +54,6 @@
 
 ## exception
 [Задача 1](exception/try): try-catch-finally - что будет выведено?  
+
+## yandex
+[Задача 1](yandex/notification): напиши систему фильтрации уведомлений  
