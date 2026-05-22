@@ -1,10 +1,16 @@
-create table t_user(
-    id bigserial PK,
-    name text,
-    email text,
-    created bigint,
-    updated bigint
-);
-
---- 1. Найти дубликаты аккаунтов по email
---- 2. Удалить дубликаты по email, оставить  записи созданные раньше
+Написать SQL-запрос, оставляющий только дубликаты: 
+Input:  
+Person table: 
++----+---------+ 
+| id | email   | 
++----+---------+ 
+| 1  | a@b.com | 
+| 2  | c@d.com | 
+| 3  | a@b.com | 
++----+---------+ 
+Output:  
++---------+ 
+| Email   | 
++---------+ 
+| a@b.com | 
++---------+
