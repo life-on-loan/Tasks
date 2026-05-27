@@ -44,6 +44,7 @@
 [Задача 4](code-review/refactoring): проведи код-ревью, если есть проблема, то предложи её решение  
 [Задача 5](code-review/equals): Equals - что будет выведено? (Object, String, Integer)  
 [Задача 6](code-review/cacheable): сделать ревью, найти проблемы  
+[Задача 7](code-review/marketplace-category-sync): сделать ревью (маркетплейс) 
 
 ## multithreading  
 [Задача 1](multithreading/print): можно ли гарантировать результат вывода на экран переменной a?  
