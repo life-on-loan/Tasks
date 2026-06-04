@@ -14,7 +14,7 @@ public class EmployeeService {
         }
     }
 
-    propagation = Propagation.REQUIRES_NEW
+    @Transactional(propagation = Propagation.REQUIRES_NEW)
     public void validateDepartment() {
         // 2: UPDATE employee SET salary = 30000 WHERE department = 'SALES'
         throw new IllegalArgumentException("Invalid department");
