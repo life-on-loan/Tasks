@@ -1,3 +1,5 @@
+// TODO: Провести код ревью, определить проблемы, написать решение проблем
+
 @Slf4j
 public class SyncServiceImpl implements SyncService {
 
