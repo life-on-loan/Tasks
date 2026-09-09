@@ -46,14 +46,14 @@
 [Задача 4](code-review/refactoring): проведи код-ревью, если есть проблема, то предложи её решение  
 [Задача 5](code-review/equals): Equals - что будет выведено? (Object, String, Integer)  
 [Задача 6](code-review/cacheable): сделать ревью, найти проблемы (cache)  
-[Задача 7](code-review/marketplace-category-sync): сделать ревью (маркетплейс) 
+[Задача 7](code-review/marketplace-category-sync): сделать ревью (маркетплейс)  
 [Задача 8](code-review/sync-service): сделать ревью, исправить проблемы (sync-service)  
 
 ## multithreading  
 [Задача 1](multithreading/print): можно ли гарантировать результат вывода на экран переменной a?  
 [Задача 2](multithreading/print2): что будет выведено?  
 [Задача 3](multithreading/improve-code): всё ли хорошо? Если нет, то какие проблемы могут быть? Если есть проблемы, то как их решить?  
-[Задача 4](multithreading/improve-code2): проведи код-ревью, если есть проблема, то предложи её решение  
+[Задача 4](multithreading/improve-code2): понять, что делает метод, найти и показать многопоточную проблему  
 [Задача 5](multithreading/countdownlatch): отработает ли CountDownLatch нужное количество раз? Что будет выведено?
 
 ## exception
